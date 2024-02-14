@@ -1,5 +1,39 @@
-# Object file
-*.o
+# Windows system files
+$RECYCLE.BIN/
+Thumbs.db
+Desktop.ini
 
-# Ada Library Information
-*.ali
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Build
+build/
+dist/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# Dependency files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
