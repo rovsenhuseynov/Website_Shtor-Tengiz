@@ -1,19 +1,6 @@
-# Windows system files
-$RECYCLE.BIN/
-Thumbs.db
-Desktop.ini
-
-# Node.js
-node_modules/
-
-# Logs
-logs
-*.log
-
-# Build
-build/
-dist/
-out/
+/node_modules
+/.pnp
+.pnp.js
 
 # Dependency directories
 jspm_packages/
@@ -25,6 +12,18 @@ yarn.lock
 # Environment variables
 .env
 
+# testing
+/coverage
+
+# production
+/build
+/dist
+/out
+
+# Logs
+/logs
+*.log
+
 # IDEs and Editors
 .idea/
 .vscode/
@@ -33,6 +32,19 @@ yarn.lock
 *.njsproj
 *.sln
 *.sw*
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Windows system files
+$RECYCLE.BIN/
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
 
 # Miscellaneous
 .DS_Store
